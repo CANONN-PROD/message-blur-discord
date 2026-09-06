@@ -1,3 +1,5 @@
+paste these into url bar
+
 Blur on
 ```javascript
    javascript:(function(){document.querySelector('main').style.filter='blur(5px)';})();
