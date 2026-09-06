@@ -2,10 +2,10 @@ paste these into url bar
 
 Blur on
 ```javascript
-   javascript:(function(){document.querySelector('main').style.filter='blur(5px)';})();
+   javascript:(()=>{const s=document.createElement('style');s.id='discord-blur-style';s.textContent='main{filter:blur(5px)!important}';document.head.appendChild(s)})()
 ```
 Blur Off
 ```javascript
-   javascript:(function(){document.querySelector('main').style.filter='blur(0px)';})();
+   javascript:(()=>{document.getElementById('discord-blur-style')?.remove()})()
 ```
 
