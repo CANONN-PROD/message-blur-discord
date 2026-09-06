@@ -1,1 +1,1 @@
-javascript:(()=>{document.getElementById('discord-blur-style')?.remove()})()
+document.getElementById('discord-blur-style')?.remove()
